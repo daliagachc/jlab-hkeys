@@ -1,0 +1,76 @@
+{
+  "notebook:collapse-selected-outputs": {
+    "command": "notebook:hide-cell-outputs",
+    "keys": [
+      "O","H"
+    ],
+    "selector": ".jp-Notebook:focus"
+  },    
+
+  "notebook:clear-all-outputs": {
+    "command": "notebook:hide-all-cell-outputs",
+    "keys": [
+      "O","R"
+    ],
+    "selector": ".jp-Notebook:focus"
+  },
+      
+  "notebook:clear-outputs": {
+    "command": "notebook:clear-cell-output",
+    "keys": [
+      "O","C"
+    ],
+    "selector": ".jp-Notebook:focus"
+  },
+      
+  "notebook:expand-selected-outputs": {
+    "command": "notebook:show-cell-outputs",
+    "keys": [
+      "O", "S"
+    ],
+    "selector": ".jp-Notebook:focus"
+  },    
+      
+  "notebook:expand-all-outputs": {
+    "command": "notebook:show-all-cell-outputs",
+    "keys": [
+      "O", "A"
+    ],
+    "selector": ".jp-Notebook:focus"
+  },    
+
+
+  "notebook:collapse-selected-code": {
+    "command": "notebook:hide-cell-code",
+    "keys": [
+      "I","H"
+    ],
+    "selector": ".jp-Notebook:focus"
+  },    
+
+  "notebook:clear-all-code": {
+    "command": "notebook:hide-all-cell-code",
+    "keys": [
+      "I","R"
+    ],
+    "selector": ".jp-Notebook:focus"
+  },
+      
+      
+  "notebook:expand-selected-code": {
+    "command": "notebook:show-cell-code",
+    "keys": [
+      "I", "S"
+    ],
+    "selector": ".jp-Notebook:focus"
+  },    
+      
+  "notebook:expand-all-code": {
+    "command": "notebook:show-all-cell-code",
+    "keys": [
+      "I", "A"
+    ],
+    "selector": ".jp-Notebook:focus"
+  }
+
+}
