@@ -71,6 +71,89 @@
       "I", "A"
     ],
     "selector": ".jp-Notebook:focus"
-  }
+  },
+    
+  "notebook:create-new": {
+    "command": "notebook:create-new",
+    "keys": [
+      "Alt N"
+    ],
+      "selector": "body",
+      "title": "New Notebook",
+      "category": "Main Area"
+  },
+      
+          "launcher:create": {
+      "command": "launcher:create",
+      "keys": [
+        ""
+      ],
+      "selector": "body",
+      "title": "New Launcher",
+      "category": "Main Area"
+    },
+        
+        
+           "tabmenu:activate-previously-used-tab": {
+      "command": "tabmenu:activate-previously-used-tab",
+      "keys": [
+        "Ctrl '"
+      ],
+      "selector": "body",
+      "title": "Activate Previously Used Tab",
+      "category": "Main Area"
+    },
+        
+            "docmanager:close": {
+      "command": "docmanager:close",
+      "keys": [
+        "Alt W"
+      ],
+      "selector": ".jp-Activity",
+      "title": "Close Activity",
+      "category": "File Operations"
+    },
+        
+        
+            "notebook:close-and-shutdown": {
+      "command": "notebook:close-and-shutdown",
+      "keys": [
+        "Alt Q"
+      ],
+      "selector": ".jp-Activity",
+      "title": "Close Activity",
+      "category": "File Operations"
+    },
+        
+        
+            "notebook:copy-cell": {
+      "command": "notebook:copy-cell",
+      "keys": [
+        "Y"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Copy Cell(s)",
+      "category": "Notebook Cell Operations"
+    },
+        
+            "notebook:paste-cell-below": {
+      "command": "notebook:paste-cell-below",
+      "keys": [
+        "P"
+      ],
+      "selector": ".jp-Notebook:focus",
+      "title": "Paste Cell(s) Below",
+      "category": "Notebook Cell Operations"
+    },
+        
+    "notebook:enter-command-mode-1": {
+      "command": "notebook:enter-command-mode",
+      "keys": [
+        "Shift Escape"
+      ],
+      "selector": ".jp-Notebook.jp-mod-editMode",
+      "title": "Enter Command Mode",
+      "category": "Notebook Operations"
+    }
 
 }
